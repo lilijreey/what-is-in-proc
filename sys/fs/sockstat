@@ -1,0 +1,7 @@
+#察看网络信息
+sockets: used 619
+TCP: inuse 8 orphan 1 tw 0 alloc 9 mem 5
+UDP: inuse 4 mem 4
+UDPLITE: inuse 0
+RAW: inuse 0
+FRAG: inuse 0 memory 0
