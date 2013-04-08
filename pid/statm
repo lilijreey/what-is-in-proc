@@ -1,0 +1,10 @@
+2215 90 70 11 0 78 0
+#1. The total process size
+#2. The size of the process resident in physical memory
+#3. The memory shared with other processes—that is, memory mapped both by
+#    this process and at least one other (such as shared libraries or untouched copy-
+#    on-write pages)
+#4. The text size of the process—that is, the size of loaded executable code
+#5. The size of shared libraries mapped into this process
+#6. The memory used by this process for its stack
+#7. The number of dirty pages—that is, pages of memory that have been modified by the program
