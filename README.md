@@ -6,6 +6,6 @@
 +  /sys/net/           网络的配置和状态
 +  /sys/fs/            文件系统
 
-EE /pid/ info see  proc(5) man page
+### /pid/ info see  proc(5) man page
 +  modules 当前内核加载的模块列表 可是使用lsmod察看
 
