@@ -1,0 +1,39 @@
+#IRQ number 和BIOS中的设定是一致的
+#interrupte 的使用次数
+#interrupte 的管理方式
+#对应的硬件设备
+           CPU0       CPU1       
+  0:         44         17   IO-APIC-edge      timer
+  1:       1614         31   IO-APIC-edge      i8042
+  7:          1          0   IO-APIC-edge    
+  8:          0          1   IO-APIC-edge      rtc0
+  9:         21         38   IO-APIC-fasteoi   acpi
+ 12:     164321      23482   IO-APIC-edge      i8042
+ 16:          0        290   IO-APIC-fasteoi   mmc0, snd_hda_intel
+ 17:          0         23   IO-APIC-fasteoi   ehci_hcd:usb1, ehci_hcd:usb2, ehci_hcd:usb3, mmc1
+ 18:      42227        247   IO-APIC-fasteoi   ohci_hcd:usb4, ohci_hcd:usb5, ohci_hcd:usb6, rtlwifi
+ 40:          0          0   PCI-MSI-edge      PCIe PME
+ 41:          0          0   PCI-MSI-edge      PCIe PME
+ 42:          0          0   PCI-MSI-edge      PCIe PME
+ 43:          0          0   PCI-MSI-edge      PCIe PME
+ 44:          0          0   PCI-MSI-edge      PCIe PME, pciehp
+ 45:          0          0   PCI-MSI-edge      PCIe PME, pciehp
+ 46:      38423       5823   PCI-MSI-edge      ahci
+ 47:          0          0   PCI-MSI-edge      eth0
+ 48:         39         30   PCI-MSI-edge      snd_hda_intel
+ 49:       1266      82093   PCI-MSI-edge      fglrx[0]@PCI:0:1:0
+ 50:       1209     277736   PCI-MSI-edge      fglrx[1]@PCI:1:0:0
+NMI:         30         29   Non-maskable interrupts
+LOC:     214047     201313   Local timer interrupts
+SPU:          0          0   Spurious interrupts
+PMI:         30         29   Performance monitoring interrupts
+IWI:          0          0   IRQ work interrupts
+RES:     231626     243070   Rescheduling interrupts
+CAL:        318        240   Function call interrupts
+TLB:       8580       9813   TLB shootdowns
+TRM:          0          0   Thermal event interrupts
+THR:          0          0   Threshold APIC interrupts
+MCE:          0          0   Machine check exceptions
+MCP:         17         17   Machine check polls
+ERR:         44
+MIS:          0

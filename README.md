@@ -25,6 +25,7 @@
 +  /proc/sys/kernel/        内核的配置以及参数
 +  /proc/sys/net/           网络的配置和状态
 +  /proc/sys/fs/            文件系统
+
 #### process Entries {{{
 所有的进程的信息都已自己的pid为文件名在/proc/中
 `
@@ -39,7 +40,6 @@
 +  /proc/pid/exe -> /home/zhaoli/xpoker/Logic/Logic 一个符号链接 指向进程的执行文件
 +  /proc/pid/root -> /                              一个符号链接 指向当前的root 目录
 +  /proc/pid/fd    进程打开的所有文件
->>>>>>> 9ce2f57cdcf7c2d32c8639dd4b101c16cc45f7b8
 
 +  /proc/pid/attr
 +  /proc/pid/autogroup
